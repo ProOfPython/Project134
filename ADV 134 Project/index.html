@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title>AI Video Surveillance</title>
+		<meta name = 'viewport' content = 'width=device-width, initial-scale=1.0'>
+		<link rel = 'stylesheet' href = 'https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css'>
+		<script src = 'https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+		<script src = 'https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js'></script>
+		<script src = 'https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js'></script>
+        <script src = 'https://unpkg.com/ml5@latest/dist/ml5.min.js'></script>
+		<link rel = 'stylesheet' type = 'text/css' href = 'style.css'>
+		<script src = 'main.js'></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+	</head>
+	<body background = 'family.jpg'>
+		<center>
+            <h3 class = 'btn btn-info headingMed'>
+                Object Dectector<br>
+                <span class = 'headingSml'>Type in something to detect!</span>
+            </h3>
+            <br><br>
+            
+            <button onclick = 'start()' class = 'btn btn-success'>Start Detection</button>
+            <br><br>
+            
+            <span class = 'btn btn-primary stats'>
+                Detected Baby: <span id = 'detectObj' class = 'badge'>No</span><br>
+            </span>
+        </center>
+	</body>
+</html>

@@ -1,0 +1,12 @@
+body{
+    background-size: cover;
+}
+
+.headingMed{
+    font-size: 25px;
+    width: 100%;
+}
+.headingSml{
+    font-size: 18.8px;
+    width: 100%;
+}
